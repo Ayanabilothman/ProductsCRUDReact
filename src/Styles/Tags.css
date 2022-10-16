@@ -1,0 +1,122 @@
+.border-green {
+    border-bottom: 3px solid var(--green) !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.border-blue {
+    border-bottom: 3px solid var(--blue) !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.border-yellow {
+    border-bottom: 3px solid var(--yellow) !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.border-pink {
+    border-bottom: 3px solid var(--pink) !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.border-dark-blue {
+    border-bottom: 3px solid var(--dark-blue) !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.border-light-green {
+    border-bottom: 3px solid var(--light-green) !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.bg-light-green {
+    background-color: var(--light-green);
+}
+
+.tag-bg button {
+    font-size: 1.25rem;
+}
+
+.tag-bg div {
+    height: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -999;
+    border-radius: 4px;
+}
+
+.tag-bg:hover div {
+    height: 100%;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.tag-bg:hover button {
+    color: var(--white);
+    transition: all 0.5s;
+}
+
+.tag-bg {
+    margin-bottom: 0.75rem !important;
+}
+
+.all-clicked {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.electronics-clicked {
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.clothes-clicked {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.food-clicked {
+    background-color: var(--pink);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.skinCare-clicked {
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.other-clicked {
+    background-color: var(--light-green);
+    color: var(--white);
+    border-radius: 4px;
+}

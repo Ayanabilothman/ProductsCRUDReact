@@ -1,0 +1,52 @@
+.all {
+    border-bottom: 8px solid var(--dark-blue);
+}
+
+.electronics {
+    border-bottom: 8px solid var(--yellow);
+}
+
+.clothes {
+    border-bottom: 8px solid var(--blue);
+}
+
+.food {
+    border-bottom: 8px solid var(--pink);
+}
+
+.skin_care {
+    border-bottom: 8px solid var(--green);
+}
+
+.other {
+    border-bottom: 8px solid var(--light-green);
+}
+
+.product-card {
+    border-radius: 6px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.overlay {
+    height: 0;
+    bottom: 0;
+    opacity: 0;
+  }
+  
+  .product-card:hover .overlay {
+    height: 100% ;
+    opacity: 0.95 ;
+    transition: all 1s;
+  }
+
+  img {
+    height: 250px;
+    display: block;
+  }
+
+.product-info p:first-of-type{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,8 @@
+#update-form {
+    z-index: 999;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.update-form {
+    background-color: var(--dark-blue);
+}
